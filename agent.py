@@ -14,17 +14,17 @@ class LearningAgent(Agent):
         self.state = {}
 
         # Variables needed for simulated annealing.
-        self.epsilon =.2
+        self.epsilon =.1
         self.epsilon_annealing_rate = .01
 
         #stop resetting the epsilon varible after n trials.
         self.episilon_reset_trials = 200
 
         #initialize learning rate
-        self.alpha = 0.6
+        self.alpha = 0.65
 
         #initialize discount rate
-        self.gamma = 0.4
+        self.gamma = 0.35
         self.q_table = {}
         self.valid_actions = self.env.valid_actions
 
@@ -78,7 +78,7 @@ class LearningAgent(Agent):
         plt.title('Traffic Infractions')
         plt.xlabel('Trial number')
         plt.ylabel('Amount of Infractions')
-        #plt.show()
+        plt.show()
        
 
    
