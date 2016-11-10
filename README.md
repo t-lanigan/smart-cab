@@ -17,4 +17,8 @@ In a terminal or command window, navigate to the top-level project directory `sm
 ```python smartcab/agent.py```  
 ```python -m smartcab.agent```
 
-This will run the `agent.py` file and execute the agent code.
+This will run the `agent.py` file and execute the agent code. To change parameters of the trial runs, go into agent.py and follow the comments in the `run()` function.
+
+### Report
+
+Attached is a report file that contains questions posed by Udacity and analysis on the code written for the agent.py file. 
